@@ -1,5 +1,17 @@
 *.dll
 *.exe
 *.o
+*.obj
 *.so
+*.a
+*.lib
+*.pdb
+*.exp
+*.ilk
 build/
+Debug/
+Release/
+.vs/
+*.user
+CMakeCache.txt
+CMakeFiles/
