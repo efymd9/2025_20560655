@@ -1,0 +1,26 @@
+git init
+Starts a new Git repository in the current folder.
+
+git log
+Shows the commit history for the current branch.
+
+git show
+Displays the details of a specific commit (or HEAD by default): the message + the exact changes.
+
+git checkout
+Switches what you’re looking at/working on:
+
+git checkout branchname → switch branches
+
+git checkout <commit> → view an older commit (detached HEAD)
+
+git checkout -- file → discard changes in a file and restore the last committed version
+
+git reset
+Moves Git’s pointers and/or unstages changes (depending on how you use it):
+
+git reset HEAD file → unstage a file (keep the edits)
+
+git reset --hard <commit> → jump back to a commit and throw away local changes (dangerous)
+
+git reset <commit> → move the branch back (often used to “undo” commits locally)
